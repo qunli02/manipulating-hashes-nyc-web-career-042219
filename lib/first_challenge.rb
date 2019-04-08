@@ -14,7 +14,11 @@ def first_challenge
   }
 
   #your code here
-
+  contacts.each do |person, info|
+    info.each do |layer2, stuff|
+      if layer2 == favorite_icecream_flavors
+        
+      
 
   #remember to return your newly altered contacts hash!
   contacts
