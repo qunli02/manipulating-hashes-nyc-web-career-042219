@@ -18,7 +18,9 @@ def first_challenge
     info.each do |layer2, stuff|
       if layer2 == favorite_icecream_flavors
         stuff.delete_if(|x| x == strawberry)
-      
+      end
+    end
+  end
 
   #remember to return your newly altered contacts hash!
   contacts
